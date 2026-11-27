@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-container">
+
+        <!-- Theme Buttons -->
+        <div class="theme-buttons">
+            <button class="theme-button dark-button" onclick="setDark()">
+                Dark Mode
+            </button>
+
+            <button class="theme-button light-button" onclick="setLight()">
+                Light Mode
+            </button>
+        </div>
+
+        <!-- Profile Card -->
+        <section class="profile-card">
+
+            <!-- Profile Images -->
+            <div class="profile-images">
+                <img
+                    id="dark-profile-image"
+                    class="dark-profile-image"
+                    src="dark1.jpg"
+                    alt="Dark mode profile picture"
+                >
+
+                <img
+                    id="light-profile-image"
+                    class="light-profile-image"
+                    src="light1.jpg"
+                    alt="Light mode profile picture"
+                >
+            </div>
+
+            <!-- Profile Name -->
+            <h1 id="profile-name">Sujal Gawas</h1>
+
+            <!-- Profile Bio -->
+            <p class="profile-bio" id="profile-bio">
+                Turning ideas into interactive experiences.
+Learning, building, and pushing beyond the obvious.
+                <a
+                    id="profile-website"
+                    href="https://temporarrrrry-sys.github.io/delicious-bites/signup.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Explore my work
+                </a>
+            </p>
+
+            <!-- Contact Button -->
+            <a
+                class="contact-button"
+                id="contact-button"
+                href="https://mail.google.com"
+            >
+                <img
+                    src="icons/email.svg"
+                    alt=""
+                    class="contact-icon"
+                >
+
+                <span id="contact-text">Get in touch</span>
+            </a>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+
+                <a
+                    id="instagram-link"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <img src="icons/instagram.svg" alt="Instagram">
+                </a>
+
+                <a
+                    id="tiktok-link"
+                    href="https://www.tiktok.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                >
+                    <img src="icons/tiktok.svg" alt="TikTok">
+                </a>
+
+                <a
+                    id="twitter-link"
+                    href="https://twitter.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Twitter"
+                >
+                    <img src="icons/twitter.svg" alt="Twitter">
+                </a>
+
+                <a
+                    id="website-link"
+                    href="https://example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Personal website"
+                >
+                    <img src="icons/website.svg" alt="Website">
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
